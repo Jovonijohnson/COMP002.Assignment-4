@@ -23,7 +23,8 @@ function calculateCircumference(radius)
      // This is the Circumference formula
 }
 // Example Output:
-console.log(calculateCircumference(5)); // Outputs: 31.4
+console.log(calculateCircumference(5));
+ // Outputs: 31.4
 
 // 3. Write a function searchString that takes a character and then returns how many times it appears in another string argument.
 // Example Output:
