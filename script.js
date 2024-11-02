@@ -22,7 +22,6 @@ function calculateCircumference(radius)
     return 2 * pi * radius;
      // This is the Circumference formula
 }
-
 // Example Output:
 console.log(calculateCircumference(5)); // Outputs: 31.4
 
@@ -30,3 +29,16 @@ console.log(calculateCircumference(5)); // Outputs: 31.4
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+
+function searchString(char, str) {
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === char) {
+            count++;
+        }
+    }
+    return count;
+}
+// Example of Outputs:
+console.log(searchString('s', 'mississippi')); // Outputs: 4
+console.log(searchString('q', 'mississippi')); // Outputs: 0
